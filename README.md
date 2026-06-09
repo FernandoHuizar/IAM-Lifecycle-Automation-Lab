@@ -49,6 +49,8 @@ Attempts to hide account from Global Address List using msExchHideFromAddressLis
 
 **Step 6 — Move to Disabled Users OU**
 Moves account to Disabled Users OU using Move-ADObject
+<img width="748" height="365" alt="image" src="https://github.com/user-attachments/assets/e8bca98a-7c07-4247-b28d-3d431d3665cf" />
+
 
 After all steps logs action to offboarding-log.txt and triggers Entra Connect delta sync
 
@@ -58,6 +60,8 @@ Both scripts write structured log entries:
 - <img width="662" height="71" alt="image" src="https://github.com/user-attachments/assets/b882bc86-5307-4e31-a0de-2916ab7e9893" />
 - **Offboarding format:** timestamp | action | username | note
 - <img width="635" height="51" alt="image" src="https://github.com/user-attachments/assets/4513aa64-da59-4795-bd57-8cd821961c0a" />
+- <img width="987" height="210" alt="image" src="https://github.com/user-attachments/assets/e001c636-165b-479a-9cd6-c36bb8230f99" />
+
 
 
 In a production environment these logs would be shipped to a SIEM like Microsoft Sentinel or Splunk for security monitoring and compliance.
