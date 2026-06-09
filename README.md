@@ -28,9 +28,13 @@ Automates the complete new hire provisioning process.
 - Optionally sets manager attribute
 - Logs action with timestamp to onboarding-log.txt
 - Triggers Entra Connect delta sync automatically
+<img width="992" height="357" alt="image" src="https://github.com/user-attachments/assets/f3b4680e-984c-4422-ba4b-2f471c792bf4" />
+
 
 ### Offboarding Script — Offboard-User.ps1
 Automates the complete employee termination process in 6 sequential steps.
+<img width="995" height="698" alt="image" src="https://github.com/user-attachments/assets/d2b6e818-ed4a-4a90-847b-6b3330c93487" />
+
 
 **Step 1 — Disable account**
 Immediately prevents login using Disable-ADAccount
