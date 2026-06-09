@@ -55,7 +55,10 @@ After all steps logs action to offboarding-log.txt and triggers Entra Connect de
 ## Audit Logging
 Both scripts write structured log entries:
 - **Onboarding format:** timestamp | action | username | department | title
+- <img width="662" height="71" alt="image" src="https://github.com/user-attachments/assets/b882bc86-5307-4e31-a0de-2916ab7e9893" />
 - **Offboarding format:** timestamp | action | username | note
+- <img width="635" height="51" alt="image" src="https://github.com/user-attachments/assets/4513aa64-da59-4795-bd57-8cd821961c0a" />
+
 
 In a production environment these logs would be shipped to a SIEM like Microsoft Sentinel or Splunk for security monitoring and compliance.
 
